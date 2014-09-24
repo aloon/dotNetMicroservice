@@ -11,7 +11,7 @@ namespace Micromodularized.Controllers
         // GET: Index
         public ActionResult Index()
         {
-            return View();
+            return View(new Models.HomeModel() { Name = "hola" });
         }
     }
 }
