@@ -7,5 +7,6 @@ namespace Micromodularized.Models
 {
     public class HomeModel : ModelBase
     {
+        
     }
 }
