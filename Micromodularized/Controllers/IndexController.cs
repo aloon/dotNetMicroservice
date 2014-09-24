@@ -20,7 +20,7 @@ namespace Micromodularized.Controllers
 
             AsyncManager.OutstandingOperations.Increment(2);
             var client = new WebClient();
-            var uri = new Uri("http://localhost:3579/");
+            var uri = new Uri("http://localhost:10001/");
             client.DownloadStringCompleted += (sender, e) =>
             {
                 AsyncManager.Parameters["nancyData"] = e.Result;

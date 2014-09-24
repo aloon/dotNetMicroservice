@@ -1,4 +1,4 @@
-﻿namespace NancyModule
+﻿namespace NancyProtoBuf
 {
     using System;
     using Nancy.Hosting.Self;
@@ -8,7 +8,7 @@
         static void Main(string[] args)
         {
             var uri =
-                new Uri("http://localhost:10001");
+                new Uri("http://localhost:10002");
 
             using (var host = new NancyHost(uri))
             {
